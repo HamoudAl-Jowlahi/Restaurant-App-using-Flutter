@@ -1,0 +1,31 @@
+name: restaurant
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http:
+  shared_preferences: ^2.0.15
+  flutter_easyloading:
+  get: ^4.7.2
+  get_storage:
+#  flutter_share_me: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+#  flutter_launcher_icons: ^0.9.2
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icon/
